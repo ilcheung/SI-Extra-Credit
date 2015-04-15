@@ -63,6 +63,8 @@ class Post():
         
     def positive(self):
         return None
+#Should try using accumulation and possibly a for loop to iterate through the message and list of words.
+        
                    
     def negative(self):
         return None
@@ -111,6 +113,9 @@ test.testEqual(p.emo_score(), -1)
 # This is almost the same as the Facebook code example you saw in class.
 
 # uncomment the next three lines, filling in your access token
+
+# https://developers.facebook.com/tools/explorer"
+
 # access_token = ""
 # graph = facebook.GraphAPI(access_token)
 # feed = graph.get_object("me/feed", limit = 100)
